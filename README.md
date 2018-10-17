@@ -12,4 +12,4 @@ http://moip.loja.ninja/testeapi.php?order_id=100000721 - Pago via Cartão
 http://moip.loja.ninja/testeapi.php?order_id=100000720 - Pago via Tef
 
 
-## Esse módulo não é um produto do Moip, e não oficialmente oferecido suporte pela Moip
+## Esse módulo não é um produto do Moip, e não oficialmente um produto Moip e não é oferecido suporte pela Moip
