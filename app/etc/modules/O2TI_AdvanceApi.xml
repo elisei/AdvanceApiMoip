@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <O2TI_AdvanceApi>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends></depends>
+        </O2TI_AdvanceApi>
+    </modules>
+</config>

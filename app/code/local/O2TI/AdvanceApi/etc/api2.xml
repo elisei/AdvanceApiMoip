@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magento.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magento.com for more information.
+ *
+ * @category    Mage
+ * @package     Mage_Sales
+ * @copyright   Copyright (c) 2006-2015 X.commerce, Inc. (http://www.magento.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+-->
+<config>
+    <api2>
+        <resources>
+            <order translate="title" module="api2">
+                <model>O2TI_AdvanceApi_Model_Sales_Order_Api_V2</model>
+                <attributes>
+                    <moip_ambiente>Ambiente da Geração do Pagamento</moip_ambiente>
+                    <moip_pay>Número do pagamento no Moip</moip_pay>
+                    <moip_order_id>Número do pedido no Moip</moip_order_id>
+                    <moip_installments>Número de Parcelas</moip_installments>
+                    <moip_first6>6 primeiros digitos</moip_first6>
+                    <moip_last4>4 últimos</moip_last4>
+                    <moip_href_boleto>url do boleto</moip_href_boleto>
+                    <moip_linecode_boleto>codigo de barras</moip_linecode_boleto>
+                    <moip_expiration_boleto>vencimento</moip_expiration_boleto>
+                    <moip_namebank_trans>banco de tef</moip_namebank_trans>
+                    <moip_urlbank_trans>url para pagamento</moip_urlbank_trans>
+                    <moip_expiration_trans>vencimento</moip_expiration_trans>
+                </attributes>
+            </order>
+        </resources>
+    </api2>
+</config>
