@@ -22,7 +22,7 @@ class O2TI_AdvanceApi_Model_Sales_Order_Api_V2 extends Mage_Sales_Model_Order_Ap
             $result['payment']['moip_order_id']             =  $data['moip_order_id'];
             $result['payment']['moip_installments']         =  $data['moip_card_installmentCount'];
             $result['payment']['moip_first6']               =  $data['moip_card_first6'];
-            $result['payment']['moip_last4']                =  $data['moip_card_first6'];
+            $result['payment']['moip_last4']                =  $data['moip_card_last4'];
             $result['payment']['moip_card_brand']           =  $data['moip_card_brand'];
             $result['payment']['moip_expiration_boleto']    =  $data['print_href'];
             $result['payment']['moip_linecode_boleto']      =  $data['line_code'];
